@@ -1,5 +1,5 @@
 #!/bin/bash
-# This script puts the update script in /usr/bin and makes it executable so you only have to type 'update' in the Terminal
+# This script puts the update script in ~/bin and makes it executable so you only have to type 'update' in the Terminal
 
 echo
 
