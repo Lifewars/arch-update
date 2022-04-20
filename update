@@ -7,7 +7,7 @@ NOCOLOR="\033[0m"
 echo
 
 echo -e "${BLUE}Update Arch Linux Packages${NOCOLOR}"
-sudo pacman -Syyu
+sudo pacman -Syu
 
 echo 
 
@@ -29,6 +29,6 @@ echo
 # Personally I do not use snap, but if you want to update your snap packages with the script you can uncomment these commands.
 
 # echo -e "${BLUE}Update Snap Packages¼{NOCOLOR}"
-# snap sudo snap refresh
+# sudo snap refresh
 
 # echo
