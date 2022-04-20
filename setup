@@ -1,0 +1,18 @@
+#!/bin/bash
+# This script puts the update script in /usr/bin and makes it executable so you only have to type 'update' in the Terminal
+
+echo
+
+echo -e "Copying update to /usr/bin/"
+sudo cp update /usr/bin/
+
+echo
+
+echo -e "Making the script executable"
+sudo chmod +x /usr/bin/update
+
+echo
+
+echo -e DONE! Type 'update' in your terminal to test the script out! :D
+
+echo
