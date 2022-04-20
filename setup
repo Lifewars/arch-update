@@ -4,12 +4,12 @@
 echo
 
 echo -e "Copying update to /usr/bin/"
-sudo cp update /usr/bin/
+sudo cp update ~/bin/
 
 echo
 
 echo -e "Making the script executable"
-sudo chmod +x /usr/bin/update
+sudo chmod +x ~/bin/update
 
 echo
 
