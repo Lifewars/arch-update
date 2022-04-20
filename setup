@@ -13,6 +13,11 @@ sudo chmod +x ~/bin/update
 
 echo
 
+echo -e "Reloading bash"
+. ~/.bash_profile
+
+echo
+
 echo -e DONE! Type 'update' in your terminal to test the script out! :D
 
 echo
