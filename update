@@ -11,24 +11,18 @@ sudo pacman -Syu
 
 echo 
 
-# Since yay is the more popular option, this is the one which is uncommented.
+# I like paru
 
 echo -e "${BLUE}Update AUR Packages${NOCOLOR}"
-yay -Syu
-# paru -Sau
+paru -Sau
 
 echo 
 
-# Not everyone uses Flatpak, hence why I commented the commands. You can uncomment these commands if you also wanna upgrade your flatpak packages.
+# Flatpak is cool
 
-# echo -e "${BLUE}Update Flatpak Packages${NOCOLOR}"
-# flatpak update
+echo -e "${BLUE}Update Flatpak Packages${NOCOLOR}"
+flatpak update
 
-# echo
+echo
 
-# Personally I do not use snap, but if you want to update your snap packages with the script you can uncomment these commands.
 
-# echo -e "${BLUE}Update Snap Packages¼{NOCOLOR}"
-# sudo snap refresh
-
-# echo
