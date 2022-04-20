@@ -24,4 +24,4 @@ update
 ```
 
 ## Customization 
-You can comment and uncomment commands in /usr/bin/update to match your system preferences.
+You add or remove commands in /usr/bin/update to match your system preferences.
